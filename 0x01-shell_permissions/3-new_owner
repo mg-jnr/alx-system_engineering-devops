@@ -1,2 +1,2 @@
 #!/bin/bash
-betty
+udo chown betty hello
