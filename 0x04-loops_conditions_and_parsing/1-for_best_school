@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-for ((i=9; i<10; i++))
+for ((i=0; i<10; i++))
 do
-    printf "Best School\n%.0s" {1..10}
+    echo "Best School";
 done
