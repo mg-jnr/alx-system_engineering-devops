@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# 
+j=10
+i=0
+until [[ i -eq j ]]
+do
+	echo "Best School"
+	((i+=1))
+done
