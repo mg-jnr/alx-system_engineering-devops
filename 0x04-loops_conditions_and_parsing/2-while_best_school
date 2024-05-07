@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-i=9
-while [ $i -lt 10 ]
-do
-    printf 'Best School\n%.0s' {1..10}
-    i=$((i+1))
-done
+# Script that write a bash display Best School 10 times with while
 
+((i=0)); while((i < 10));
+do
+echo "Best School";
+((i++));
+done
